@@ -1,0 +1,24 @@
+<resources>
+    <!--  BASE  -->
+    <string name="app_name">CurrencyConverter</string>
+    <string name="not_enough_disk_space">Недостаточно места на диске</string>
+    <string name="an_unknown_error_has_occurred">Произошла неизвестная ошибка</string>
+    <string name="waiting_limit_exceeded">Превышен лимит ожидания</string>
+    <string name="request_limit_exceeded">Превышен лимит запросов</string>
+    <string name="no_internet">Нет интернета</string>
+    <string name="the_request_object_exceeds_the_limits_defined_by_the_server">Объект запроса превышает пределы, определенные сервером</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="serialization_error">Ошибка сериализации</string>
+    <string name="try_connecting_again">Try connecting again</string>
+    <!--  Select screen  -->
+    <string name="select_currency">Выбор валюты</string>
+    <string name="enter_value">Введите значение</string>
+    <string name="convert">Конвертировать</string>
+    <!--  Convert currencies screen  -->
+    <string name="rate_amount">Сумма ставки</string>
+    <string name="rate">Ставка</string>
+    <string name="amount">Сумма</string>
+    <string name="equals">Равно</string>
+    <string name="result">Итог</string>
+
+</resources>

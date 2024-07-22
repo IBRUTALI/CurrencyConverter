@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Background  -->
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_blue">#4C4DDC</color>
+    <color name="bg_blue_light">#C2C2EB</color>
+    <!--  Text  -->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_blue">#4C4DDC</color>
+    <color name="text_grey">#A0A1A3</color>
+    <color name="text_black">#101010</color>
+    <color name="text_red">#FF0000</color>
+    <!--  Elements  -->
+    <color name="elem_white">#FFFFFF</color>
+    <color name="elem_light_grey">#A0A1A3</color>
+    <color name="elem_blue">#4C4DDC</color>
+    <color name="elem_black">#101010</color>
+    <color name="elem_red">#FF0000</color>
+</resources>

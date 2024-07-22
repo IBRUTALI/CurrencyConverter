@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.converter.presentation.screens.convert_result.ConvertResultFragment">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/baseGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="amountFrom, equals, amountTo" />
+
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        style="@style/BaseProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/retryBtn"
+        style="@style/BaseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@null"
+        android:src="@drawable/ic_repeat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/try_connecting_again" />
+
+    <TextView
+        android:id="@+id/amountFrom"
+        style="@style/Regular.LargeTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Значение первой валюты"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/equals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/equals"
+        style="@style/Regular.LargeTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equals"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amountTo"
+        style="@style/Regular.LargeTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Значение второй валюты"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/equals" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
